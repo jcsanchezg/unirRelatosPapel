@@ -1,0 +1,57 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.app-layout {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  position: relative;
+  margin-left: 10%;
+}
+
+.main-content {
+  flex: 1;
+  /*margin-left: 250px;*/
+  /*padding: 1rem;*/
+  min-height: 100vh;
+  box-sizing: border-box;
+  width: calc(100% - 250px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: white;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 900;
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.page-content {
+  flex: 1;
+  position: relative;
+  z-index: 800;
+  background-color: white;
+}
+
+.footer {
+  margin-left: 250px;
+  padding: 1rem;
+  background-color: #282c34;
+  color: white;
+  /*width: calc(100% - 250px);*/
+  z-index: 900;
+  box-sizing: border-box;
+  position: relative;
+}
+
